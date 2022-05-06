@@ -12,7 +12,7 @@ d = {'col1':[1,2,3,4,7,11],
 df = pd.DataFrame(data = d)
 print("Original DataFrame:")
 print(df)
-s1 = df.iloc[:,0]
+s1 = df.iloc[:,0]  #iloc[row,colummn]
 print("\n1st column as a Series:")
 print(s1)
 print(type(s1))
